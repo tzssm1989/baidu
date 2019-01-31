@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ssm?serverTimezone=GMT%2B8
+    username: root
+    password: root123
+
+  #ÈÈ²¿Êð
+  devtools:
+    livereload:
+      enabled: true
+
+    remote:
+      restart:
+        enabled: true
+
+server:
+  port: 8080
+
+
